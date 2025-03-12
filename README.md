@@ -1,6 +1,6 @@
 # Segunda tarea de APA 2023: Manejo de números primos
 
-## Nom i cognoms
+## PAU REYES BOIX
 
 ## Fichero `primos.py`
 
