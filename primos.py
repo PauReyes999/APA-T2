@@ -115,13 +115,13 @@ def mcmN(*numeros):
 
     # Iteramos sobre el resto de los números
     for numero in numeros[1:]:
-        mcm_resultado = mcm(mcm_resultado, numero)  # Calculamos el MCM entre el resultado actual y el siguiente número
+        mcm_resultado = mcm(mcm_resultado, numero)  
 
     return mcm_resultado
 
 def mcdN(*numeros):
     """
-    Calcula el máximo común divisor (MCD) de un número arbitrario de argumentos.
+    Calcula el máximo común divisor (MCD) de un número arbitrario de argumentos
 
     >>> mcdN(840, 630, 1050, 1470)
     210
@@ -131,6 +131,6 @@ def mcdN(*numeros):
 
     # Iteramos sobre el resto de los números
     for numero in numeros[1:]:
-        mcd_resultado = mcd(mcd_resultado, numero)  # Calculamos el MCD entre el resultado actual y el siguiente número
+        mcd_resultado = mcd(mcd_resultado, numero)  
 
     return mcd_resultado
